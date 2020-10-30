@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    api-umbrella:
+        container_name: api-umbrella
+        ports:
+            - '80:80'
+            - '443:443'
+        volumes:
+            - '$(pwd)/config:/etc/api-umbrella'
+        image: nrel/api-umbrella

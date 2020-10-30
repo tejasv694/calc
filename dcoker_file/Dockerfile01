@@ -1,0 +1,17 @@
+From centos:latest
+Maintainer tejas@1234
+Run yum Update
+Run yum install -y httpd 
+Copy application.html /var/www 
+
+
+
+
+
+
+
+
+
+
+
+

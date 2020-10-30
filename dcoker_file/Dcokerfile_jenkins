@@ -1,0 +1,4 @@
+FROM centos:latest
+MAINTAINER email@gmail.com.in
+RUN yum update -y 
+RUN yum install -y jenkins
