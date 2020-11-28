@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1604055763,,"wq"
+|2,0,1604310374,,"wq"
 :q
 |2,0,1604055475,,"q"
 :Q
@@ -32,230 +32,270 @@
 |3,1,36,0,1,0,1599675381,"v"
 
 # File marks:
-'0  37  10  ~/docker-compose.yml
-|4,48,37,10,1604055763,"~/docker-compose.yml"
-'1  37  14  ~/docker-compose.yml
-|4,49,37,14,1604055475,"~/docker-compose.yml"
-'2  30  1  ~/docker-compose.yml
-|4,50,30,1,1604054890,"~/docker-compose.yml"
-'3  30  1  ~/docker-compose.yml
-|4,51,30,1,1604054890,"~/docker-compose.yml"
-'4  30  1  ~/docker-compose.yml
-|4,52,30,1,1604054890,"~/docker-compose.yml"
-'5  30  1  ~/docker-compose.yml
-|4,53,30,1,1604054890,"~/docker-compose.yml"
-'6  10  16  ~/docker-compose.yml
-|4,54,10,16,1604054710,"~/docker-compose.yml"
-'7  10  16  ~/docker-compose.yml
-|4,55,10,16,1604054710,"~/docker-compose.yml"
-'8  10  16  ~/docker-compose.yml
-|4,56,10,16,1604054710,"~/docker-compose.yml"
-'9  10  16  ~/docker-compose.yml
-|4,57,10,16,1604054710,"~/docker-compose.yml"
+'0  4  23  ~/dcoker_file/Dockerfile
+|4,48,4,23,1604310374,"~/dcoker_file/Dockerfile"
+'1  6  0  ~/Dockerfile
+|4,49,6,0,1604307347,"~/Dockerfile"
+'2  1  0  ~/con/docker-compose.yml
+|4,50,1,0,1604186161,"~/con/docker-compose.yml"
+'3  1  0  ~/con/docker-compose.yml
+|4,51,1,0,1604185508,"~/con/docker-compose.yml"
+'4  1  0  ~/con/docker-compose.yml
+|4,52,1,0,1604143544,"~/con/docker-compose.yml"
+'5  1  0  ~/con/docker-compose.yml
+|4,53,1,0,1604143544,"~/con/docker-compose.yml"
+'6  4  9  ~/api-umbrella/docker-compose.yml
+|4,54,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+'7  4  9  ~/api-umbrella/docker-compose.yml
+|4,55,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+'8  1  0  ~/config/api-umbrella.yml
+|4,56,1,0,1604066016,"~/config/api-umbrella.yml"
+'9  1  0  ~/config/api-umbrella.yml
+|4,57,1,0,1604065602,"~/config/api-umbrella.yml"
 
 # Jumplist (newest first):
--'  37  10  ~/docker-compose.yml
-|4,39,37,10,1604055763,"~/docker-compose.yml"
--'  37  14  ~/docker-compose.yml
-|4,39,37,14,1604055475,"~/docker-compose.yml"
--'  30  1  ~/docker-compose.yml
-|4,39,30,1,1604055437,"~/docker-compose.yml"
--'  30  1  ~/docker-compose.yml
-|4,39,30,1,1604055437,"~/docker-compose.yml"
--'  30  1  ~/docker-compose.yml
-|4,39,30,1,1604054890,"~/docker-compose.yml"
--'  10  16  ~/docker-compose.yml
-|4,39,10,16,1604054819,"~/docker-compose.yml"
--'  10  16  ~/docker-compose.yml
-|4,39,10,16,1604054819,"~/docker-compose.yml"
--'  10  16  ~/docker-compose.yml
-|4,39,10,16,1604054819,"~/docker-compose.yml"
--'  10  16  ~/docker-compose.yml
-|4,39,10,16,1604054710,"~/docker-compose.yml"
--'  10  27  ~/docker-compose.yml
-|4,39,10,27,1604054672,"~/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  34  5  ~/cadence/docker/docker-compose.yml
-|4,39,34,5,1604054650,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  35  14  ~/cadence/docker/docker-compose.yml
-|4,39,35,14,1604054630,"~/cadence/docker/docker-compose.yml"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
--'  40  14  ~/doc
-|4,39,40,14,1604054587,"~/doc"
+-'  4  23  ~/dcoker_file/Dockerfile
+|4,39,4,23,1604310374,"~/dcoker_file/Dockerfile"
+-'  6  0  ~/Dockerfile
+|4,39,6,0,1604307347,"~/Dockerfile"
+-'  6  0  ~/Dockerfile
+|4,39,6,0,1604307347,"~/Dockerfile"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604186161,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604186161,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604186161,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604186161,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604185508,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604185508,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604185508,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604185508,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604143544,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604143544,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604143544,"~/con/docker-compose.yml"
+-'  1  0  ~/con/docker-compose.yml
+|4,39,1,0,1604143544,"~/con/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067151,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  4  9  ~/api-umbrella/docker-compose.yml
+|4,39,4,9,1604067057,"~/api-umbrella/docker-compose.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
+-'  1  0  ~/config/api-umbrella.yml
+|4,39,1,0,1604066016,"~/config/api-umbrella.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/dcoker_file/Dockerfile
+	*	1604310373	0
+	"	4	23
+	^	4	24
+	.	5	0
+	+	3	17
+	+	4	60
+	+	7	0
+	+	4	43
+	+	5	0
+
+> ~/Dockerfile
+	*	1604307346	0
+	"	6	0
+	^	6	0
+
+> ~/con/docker-compose.yml
+	*	1604186158	0
+	"	1	0
+
+> ~/api-umbrella/docker-compose.yml
+	*	1604067150	0
+	"	4	9
+
+> ~/config/api-umbrella.yml
+	*	1604066015	0
+	"	1	0
+
+> ~/st.sh
+	*	1604065582	0
+	"	4	0
+	^	4	0
+	.	3	0
+	+	2	135
+	+	2	86
+	+	5	0
+	+	5	107
+	+	3	0
+	k	1	0
 
 > ~/docker-compose.yml
 	*	1604055762	0
@@ -295,22 +335,9 @@
 	*	1604054381	0
 	"	1	0
 
-> ~/config/api-umbrella.yml
-	*	1603719933	0
-	"	1	0
-
 > ~/start.sh
 	*	1603719520	0
 	"	1	0
-
-> ~/Dockerfile
-	*	1603716273	0
-	"	6	0
-	^	6	0
-
-> ~/api-umbrella/docker-compose.yml
-	*	1603704111	0
-	"	4	9
 
 > ~/kong.sh
 	*	1603456404	0
@@ -336,17 +363,6 @@
 	+	1	23
 	+	1	2
 	+	1	18
-	+	5	0
-
-> ~/dcoker_file/Dockerfile
-	*	1603226097	0
-	"	4	23
-	^	4	24
-	.	5	0
-	+	3	17
-	+	4	60
-	+	7	0
-	+	4	43
 	+	5	0
 
 > ~/dcoker_file/test.html

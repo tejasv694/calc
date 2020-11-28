@@ -1533,3 +1533,240 @@ python3 -m http.server 8000
 netstat -pnlt | grep ':8000'
 netstat -pnlt | grep '8000'
 netstat -pnlt | grep '80'
+cd cadence/
+cd docker/
+vi docker-compose
+vi docker-compose.yml
+cd
+vi docker-compose.yml 
+docker-com.yml
+vi doc
+nano doc
+vi docker-compose.yml 
+nano apiumbrella
+nano doc
+vi doc
+cd /cadence/docker
+cd /cadence 
+cd cadence/
+cd docker
+vi docker-compose.yml 
+cd 
+vi docker-compose.yml 
+nano docker-compose.yml 
+vi docker-compose.yml 
+sudo rm -r cadence/
+ls -la
+docker ps
+docker rm -f 6bea088d99f2 22491368c3f7 4a98af3983f1
+docker-compose up -d 
+vi docker-compose.yml 
+docker-compose up -d 
+git add . docker-compose.yml 
+git commit -m "uber cadence" 
+git push origin master
+ls -la
+vi docker-compose.yml
+nano docker-compose.yml
+vi docker-compose.yml
+git init
+git add . docker-compose.yml 
+git commit -m "cadence docker compose"
+git push orign master
+git remote add origin master https://github.com/tejasv694/calc.git
+git remote add origin https://github.com/tejasv694/calc.git
+git push orign master
+git config --global user.email tejasv.makkar12@gmail.com
+git config --global user.name tejasv694
+git push orign master
+sudo git push orign master
+git init
+git push orign master
+git remote add origin master https://github.com/tejasv694
+git remote add origin https://github.com/tejasv694
+git push orign master
+git remote -v
+apt install python 
+apt-get upate -y
+apt-get update -y
+vi st.sh
+docker ps
+docker rm -f 2712b6ad3c72 ebea237081fe abe809d8839d
+sudo rm -r config/
+sudo sh ./st.sh 
+vi st.sh
+sudo sh ./st.sh 
+vi st.sh
+sudo sh ./st.sh 
+wq
+vi st.sh
+sudo sh ./st.sh 
+ls -la
+sudo rm -r config/
+ls -la
+sudo sh ./st.sh 
+ls -la
+sudo rm -r config/
+vi st.sh
+sudo sh ./st.sh 
+docker ps
+vi st.sh
+cd config/
+ls -la
+vi api-umbrella.yml 
+cd
+sudo rm -r config/
+mkdir config && touch config/api-umbrella.yml
+docker rm -f 70a27b7f133c
+docker run -d --name=api-umbrella -p 80:80 -p 443:443 -v "$(pwd)/config":/etc/api-umbrella nrel/api-umbrella
+docker ps
+sudo api-umbrella processes
+cd config/
+ls -la
+
+docker run -d --name=api-umbrella -p 80:80 -p 443:443 -v "$(pwd)/config":/etc/api-umbrella nrel/api-umbrellacd
+git clone https://github.com/NREL/api-umbrella.git
+ls -la
+cd api-umbrella/
+ls -la
+docker ps
+docker rm -f ca1715be8957
+reboot
+sudo rm -r config/
+sh ./st.sh 
+docker ps
+docker rm -f 48fe6d2e1259
+cd config/
+cd
+git clone https://github.com/NREL/api-umbrella.git
+ls -la
+cd api-umbrella/
+ls -la
+docker-compose up -d
+docker ps
+vi docker-compose.yml 
+cd
+sudo rm -r api-umbrella/
+git clone https://github.com/NREL/api-umbrella.git
+cd api-umbrella/
+docker-compose up -d
+vi docker-compose.yml 
+cd docker/
+docker build -f Dockerfile -t apium:1 .
+docker ps
+docker images
+docker run -itd apium
+docker run -itd apium:1
+docker ps
+cd
+ls -la
+sudo rm -r config/
+sudo sh ./st.sh
+vi st.sh
+cd wordpress/
+ls -la
+vi docker-compose.yml 
+docker images
+docker rmi 3c677ed48d60 18821853eb89 ce6f78c02a2d 976c24bf0bc6 
+docker rmi -f 3c677ed48d60 18821853eb89 ce6f78c02a2d 976c24bf0bc6 
+cd
+ls -la
+rm -r api-umbrella/
+docker ps
+docker images
+docker rmi 5ced205176bc
+docker rmi -f 5ced205176bc
+docker rmi -f 8e8a588e2fc1
+docker rmi -f 4ddefb39f8ff
+docker rmi -f 33810e0cb01a
+ls -la
+mkdir con
+cd con
+vi docker-compose.yml
+nano docker-compose.yml 
+docker-compose up -d
+docker images
+docker rmi -f 8e8a588e2fc1
+docker rmi -f 3c677ed48d60 18821853eb89 ce6f78c02a2d 976c24bf0bc6 a819c8fae1d8 a819c8fae1d8 bb00980cabc0 c96f8b6bc0d9 68e140d80283
+docker-compose up -d
+docker ps
+docker logs 74e41cb85cc9
+docker network create kong-net
+docker run -d --name kong-database                --network=kong-net                -p 5432:5432                -e "POSTGRES_USER=kong"                -e "POSTGRES_DB=kong"                -e "POSTGRES_PASSWORD=kong"                postgres:9.6
+docker run --rm      --network=kong-net      -e "KONG_DATABASE=postgres"      -e "KONG_PG_HOST=kong-database"      -e "KONG_PG_USER=kong"      -e "KONG_PG_PASSWORD=kong"      -e "KONG_CASSANDRA_CONTACT_POINTS=kong-database"      kong:latest kong migrations bootstrap
+docker run -d --name kong      --network=kong-net      -e "KONG_DATABASE=postgres"      -e "KONG_PG_HOST=kong-database"      -e "KONG_PG_USER=kong"      -e "KONG_PG_PASSWORD=kong"      -e "KONG_CASSANDRA_CONTACT_POINTS=kong-database"      -e "KONG_PROXY_ACCESS_LOG=/dev/stdout"      -e "KONG_ADMIN_ACCESS_LOG=/dev/stdout"      -e "KONG_PROXY_ERROR_LOG=/dev/stderr"      -e "KONG_ADMIN_ERROR_LOG=/dev/stderr"      -e "KONG_ADMIN_LISTEN=0.0.0.0:8001, 0.0.0.0:8444 ssl"      -p 8000:8000      -p 8443:8443      -p 127.0.0.1:8001:8001      -p 127.0.0.1:8444:8444      kong:latest
+curl -i http://localhost:8001/
+docker run --rm -p 8080:8080 pgbi/kong-dashboard start --kong-url http://kong:8001
+docker run --rm -p 8080:8080 pgbi/kong-dashboard start   --kong-url http://kong:8001
+docker run --rm -p 8080:8080 pgbi/kong-dashboard start   --kong-url http://kong:8001
+docker ps 
+docker rm -f 85c30fc07dad 7d87bfa60c27 1cdfbfcd0533 040638cc7d99 90702c0f3e37
+docker ps 
+ls -la
+cd con
+nano docker-compose.yml 
+sudo rm -f docker-compose.yml 
+nano docker-compose.yml 
+vi docker-compose.yml 
+docker-compose up -d
+npm install -g kong-dashboard
+apt install npm
+npm install -g kong-dashboard
+kong-dashboard start --kong-url http://kong:8001
+cd 
+ls -la
+npm uninstall -g kong-dashboard
+kong-dashboard stop --kong-url http://kong:8001
+docker network create kong-net
+docker run -d --name kong-database                --network=kong-net                -p 5432:5432                -e "POSTGRES_USER=kong"                -e "POSTGRES_DB=kong"                -e "POSTGRES_PASSWORD=kong"                postgres:9.6
+docker run --rm      --network=kong-net      -e "KONG_DATABASE=postgres"      -e "KONG_PG_HOST=kong-database"      -e "KONG_PG_USER=kong"      -e "KONG_PG_PASSWORD=kong"      -e "KONG_CASSANDRA_CONTACT_POINTS=kong-database"      kong:latest kong migrations bootstrap
+docker run -d --name kong      --network=kong-net      -e "KONG_DATABASE=postgres"      -e "KONG_PG_HOST=kong-database"      -e "KONG_PG_USER=kong"      -e "KONG_PG_PASSWORD=kong"      -e "KONG_CASSANDRA_CONTACT_POINTS=kong-database"      -e "KONG_PROXY_ACCESS_LOG=/dev/stdout"      -e "KONG_ADMIN_ACCESS_LOG=/dev/stdout"      -e "KONG_PROXY_ERROR_LOG=/dev/stderr"      -e "KONG_ADMIN_ERROR_LOG=/dev/stderr"      -e "KONG_ADMIN_LISTEN=0.0.0.0:8001, 0.0.0.0:8444 ssl"      -p 8000:8000      -p 8443:8443      -p 127.0.0.1:8001:8001      -p 127.0.0.1:8444:8444      kong:latest
+curl -i http://localhost:8001/
+docker run --rm -p 8080:8080 pgbi/kong-dashboard start --kong-url http://kong:8001
+docker ps 
+cd con
+nano docker-compose.yml 
+sudo rm -r docker-compose.yml 
+nano docker-compose.yml 
+vi docker-compose.yml 
+docker-composel up -d 
+docker-compose up -d 
+docker ps
+docker rm -f d90e86b898ef f70263687e96
+docker-compose up -d
+docker ps
+docker-compose up -d
+docker ps
+docker images
+docker rmi -r f9e2977207e3 8190cf282530 ca5dd49f58e8 8190cf282530
+docker rmi -f f9e2977207e3 8190cf282530 ca5dd49f58e8 8190cf282530
+docker images
+docker rmi -f d55bcda861ca
+docker ps
+docker-compose up -d
+docker ps
+docker images
+docker run -itd -p 8080:8080 f9e2977207e3 
+docker run -itd -P 8190cf282530
+docker ps
+docker run -itd -P bf756fb1ae65
+docker ps
+sudo reboot
+docker ps
+docker rm -f fc62814322be
+cd con
+docker-compose up -d
+docker ps
+ls -la
+vi Dockerfile 
+cd dcoker_file/
+l s-la
+ls -la
+vi Dockerfile
+ip addr
+cd
+mkdir config && touch config/api-umbrella.yml
+docker run -d --name=api-umbrella -p 80:80 -p 443:443 -v "$(pwd)/config":/etc/api-umbrella nrel/api-umbrelladocke
+docker ps
+docker mr -f 575ed5470e03
+docker rm -f 575ed5470e03
